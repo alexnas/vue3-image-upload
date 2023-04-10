@@ -14,5 +14,5 @@ import { RouterLink, RouterView } from 'vue-router';
     </div>
   </header>
 
-  <RouterView class="p-4 bg-gray-50 h-screen" />
+  <RouterView class="p-4 bg-gray-50 h-auto" />
 </template>
