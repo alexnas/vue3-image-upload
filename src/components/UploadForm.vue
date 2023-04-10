@@ -56,6 +56,7 @@ const uploadData = async (formData) => {
       },
     });
     console.log('result =================== ', result);
+    handleReset();
   } catch (err) {
     console.error(err);
   }

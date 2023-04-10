@@ -9,9 +9,10 @@ import { RouterLink, RouterView } from 'vue-router';
       <nav class="p-2 space-x-5">
         <RouterLink class="hover:text-orange-300" to="/">Home</RouterLink>
         <RouterLink class="hover:text-orange-300" to="/upload">Upload Image</RouterLink>
+        <RouterLink class="hover:text-orange-300" to="/gallery">Gallery</RouterLink>
       </nav>
     </div>
   </header>
 
-  <RouterView class="p-4 bg-gray-50 h-screen" />
+  <RouterView class="p-4 bg-gray-50 h-auto" />
 </template>
