@@ -1,5 +1,11 @@
-<script setup></script>
+<script setup>
+import ImageList from '../components/ImageList.vue';
+</script>
 
 <template>
-  <h1 class="text-3xl font-medium">Cloudinary Gallery</h1>
+  <div>
+    <h1 class="text-3xl font-medium">Cloudinary Gallery</h1>
+
+    <ImageList />
+  </div>
 </template>
