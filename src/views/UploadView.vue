@@ -1,5 +1,11 @@
-<script setup></script>
+<script setup>
+import UploadForm from '../components/UploadForm.vue';
+</script>
 
 <template>
-  <h1 class="text-3xl font-medium">Upload View</h1>
+  <div>
+    <h1 class="text-3xl font-medium">Upload Form Data</h1>
+
+    <UploadForm />
+  </div>
 </template>
