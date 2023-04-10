@@ -13,6 +13,11 @@ const router = createRouter({
       name: 'upload',
       component: () => import('../views/UploadView.vue'),
     },
+    {
+      path: '/gallery',
+      name: 'gallery',
+      component: () => import('../views/GalleryView.vue'),
+    },
   ],
 });
 
