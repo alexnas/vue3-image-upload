@@ -1,11 +1,12 @@
 # Vue Image Upload
 
-Example how to Upload Image from Vue app to server.
+Upload Image from Vue3 app to server.
 
 ## Used technologies
 
 - Vue 3
 - Composition API
+- Vue Router
 - Axios
 - Vite 4
 - TailwindCss
