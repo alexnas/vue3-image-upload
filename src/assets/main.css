@@ -3,3 +3,11 @@
   margin: 0 auto;
   font-weight: normal;
 }
+
+.active {
+  color: orange;
+}
+
+.exact-active-link {
+  color: orange;
+}
