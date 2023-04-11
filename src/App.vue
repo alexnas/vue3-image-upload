@@ -14,5 +14,11 @@ import { RouterLink, RouterView } from 'vue-router';
     </div>
   </header>
 
-  <RouterView class="p-4 bg-gray-50 h-auto" />
+  <RouterView class="p-4 bg-gray-50 h-auto main" />
 </template>
+
+<style>
+.main {
+  height: calc(100vh - 4rem);
+}
+</style>
